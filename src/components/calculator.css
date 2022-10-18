@@ -1,0 +1,46 @@
+
+html {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.container {
+    background-color: #181818;
+    height: 100vh;
+}
+
+h1 {
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: right;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 4rem;
+}
+
+.calcUI {
+    min-width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcButton {
+    min-width: 20vw;
+    min-height: 21vh;
+    background-color: #5f5f5f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 3px 3px;
+}
+
+.calcButton:hover {
+    transition: 0.2s;
+    background-color: #3d3d3d;
+}
